@@ -29,6 +29,11 @@ a:hover{
 /* end global style */
 
 /* start components */
+.section-label{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 .section-title{
   font-weight: 700;
   font-size: 40px;
@@ -301,12 +306,6 @@ a:hover{
 .about{
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-}
-.about .about-title{
-  font-weight: 600;
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
 }
 .about .about-text p{
   font-weight: 500;
