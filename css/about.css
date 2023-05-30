@@ -1,3 +1,4 @@
+/* start about header */
 .about-header{
   height: calc(400px + 77px);
   padding-top: 77px;
@@ -27,6 +28,7 @@
     width: 100%;
   }
 }
+/* end about header */
 
 /* start about info */
 .about-info{
