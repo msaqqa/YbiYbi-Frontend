@@ -1,0 +1,175 @@
+.about-header{
+  height: calc(400px + 77px);
+  padding-top: 77px;
+  background-image: url("../images/about-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-header .container{
+  width: 60%;
+  color: white;
+  text-align: center;
+}
+.about-header .about-title{
+  font-size: 36px;
+  font-weight: 700;
+}
+.about-header .about-intro{
+  font-size: 20px;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .about-header .container{
+    width: 100%;
+  }
+}
+
+/* start about info */
+.about-info{
+  padding-top: var(--section-padding);
+  padding-bottom: 100px
+}
+.about-info .about-info-text, .about-info .about-info-img{
+  width: 50%;
+}
+.about-info .about-info-text{
+  padding-left: 5rem
+}
+.about-info .about-info-text h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.about-info .about-info-text .about-info-meta h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.about-info .about-info-text .about-info-meta .meta-icon{
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  color: white;
+  flex-shrink: 0;
+  margin-right: 1rem;
+  margin-bottom: 0.75rem;
+}
+.audience{
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  right: -60px;
+  bottom: -40px;
+  background-color: var(--main-color);
+  color: #FFFFFF;
+  padding: 2rem 0.75rem;
+  text-align: center;
+}
+.audience .audience-num{
+  font-size: 50px;
+  font-weight: 700;
+}
+.audience .audience-label{
+  font-size: 14px;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .about-info{
+    padding-bottom: var(--section-padding);
+  }
+  .about-info .about-info-text, .about-info .about-info-img{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+/* end about info */
+
+/* start experience */
+.experience {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color: #2B2B2B;;
+}
+.experience .exper-content p {
+  color: #CCCCCC;
+}
+.experience .exper-progress h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0.75rem;
+}
+.experience .exper-progress .progress {
+  height: 17px;
+  margin-bottom: 1.25rem;
+  background-color: rgba(255, 255, 255, 0.13)
+}
+.experience .exper-progress .progress-bar {
+  text-align: end;
+  color: #fff;
+  background-color: var(--main-color);
+  padding-right: 0.5rem;
+}
+/* end experience */
+
+/* start team */
+.team {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+.team .teamer {
+  height: 492px;
+  background-color: #F5F5F5;
+  transition: all 0.4s ease;
+}
+.team .teamer:hover {
+  height: 547px;
+  background-color: #2B2B2B;
+  color:#FFFFFF;
+}
+.team .teamer .teamer-info{
+  padding: 1.25rem 0.75rem;
+  text-align: center;
+}
+.team .teamer .teamer-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.team .teamer .teamer-position {
+  font-size: 13px;
+  font-weight: 500;
+  color: #AAAAAA;
+}
+.team .teamer:hover .teamer-position {
+  color: #CCCCCC
+}
+.teamer-links {
+  background-color: #FFFFFF;
+  padding: 0.5rem;
+  width: 50%;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  display: none;
+}
+.team .teamer:hover .teamer-links{
+  display: flex;
+}
+.teamer-links a {
+  color: #2B2B2B;
+  transition: color 0.3s ease;
+}
+.teamer-links a:hover{
+  color: var(--main-color);
+}
+/* end team */
+

@@ -18,7 +18,7 @@
   <body>
     <!-- start navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-      <div class="container">
+      <div class="container px-md-0">
         <a class="navbar-brand" href="#"
           ><img src="./images/logo.png" alt="Logo"
         /></a>
@@ -140,8 +140,10 @@
                   <span class="followers-num">20K Followers </span>
                 </div>
                 <button class="btn btn-main rounded-pill">
-                  <span>Available Accounts</span>
-                  <i class="fa-solid fa-arrow-right ms-2"></i>
+                  <a href="#">
+                    <span class="d-none d-md-inline-block me-2">Available Accounts</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
                 </button>
               </div>
             </div>
@@ -206,7 +208,7 @@
             <span>SELLER & BUYER</span>
           </div>
           <button class="btn btn-main">
-            <a href="" alt="explore">Explore</a>
+            <a href="#" alt="explore">Explore</a>
           </button>
         </div>
         <div class="about-img d-none d-md-block">
@@ -244,7 +246,7 @@
                   <h5>Pablo Esocobar</h5>
                   <h6>117k Followers</h6>
                   <h6>#video #music #play</h6>
-                  <button class="btn btn-main py-1 px-3 mt-2">Buy Now</button>
+                  <button class="btn btn-main py-1 px-3 mt-2"><a href="#">Buy Now</a></button>
                 </div>
                 <div class="prod-actions text-center">
                   <div class="mb-4">
@@ -272,7 +274,7 @@
                   <h5>Pablo Esocobar</h5>
                   <h6>117k Followers</h6>
                   <h6>#video #music #play</h6>
-                  <button class="btn btn-main py-1 px-3 mt-2">Buy Now</button>
+                  <button class="btn btn-main py-1 px-3 mt-2"><a href="#">Buy Now</a></button>
                 </div>
                 <div class="prod-actions text-center">
                   <div class="mb-4">
@@ -300,7 +302,7 @@
                   <h5>Pablo Esocobar</h5>
                   <h6>117k Followers</h6>
                   <h6>#video #music #play</h6>
-                  <button class="btn btn-main py-1 px-3 mt-2">Buy Now</button>
+                  <button class="btn btn-main py-1 px-3 mt-2"><a href="#">Buy Now</a></button>
                 </div>
                 <div class="prod-actions text-center">
                   <div class="mb-4">
@@ -328,7 +330,7 @@
                   <h5>Pablo Esocobar</h5>
                   <h6>117k Followers</h6>
                   <h6>#video #music #play</h6>
-                  <button class="btn btn-main py-1 px-3 mt-2">Buy Now</button>
+                  <button class="btn btn-main py-1 px-3 mt-2"><a href="#">Buy Now</a></button>
                 </div>
                 <div class="prod-actions text-center">
                   <div class="mb-4">
@@ -356,7 +358,7 @@
                   <h5>Pablo Esocobar</h5>
                   <h6>117k Followers</h6>
                   <h6>#video #music #play</h6>
-                  <button class="btn btn-main py-1 px-3 mt-2">Buy Now</button>
+                  <button class="btn btn-main py-1 px-3 mt-2"><a href="#">Buy Now</a></button>
                 </div>
                 <div class="prod-actions text-center">
                   <div class="mb-4">
@@ -384,7 +386,7 @@
                   <h5>Pablo Esocobar</h5>
                   <h6>117k Followers</h6>
                   <h6>#video #music #play</h6>
-                  <button class="btn btn-main py-1 px-3 mt-2">Buy Now</button>
+                  <button class="btn btn-main py-1 px-3 mt-2"><a href="#">Buy Now</a></button>
                 </div>
                 <div class="prod-actions text-center">
                   <div class="mb-4">
@@ -412,7 +414,7 @@
                   <h5>Pablo Esocobar</h5>
                   <h6>117k Followers</h6>
                   <h6>#video #music #play</h6>
-                  <button class="btn btn-main py-1 px-3 mt-2">Buy Now</button>
+                  <button class="btn btn-main py-1 px-3 mt-2"><a href="#">Buy Now</a></button>
                 </div>
                 <div class="prod-actions text-center">
                   <div class="mb-4">
@@ -440,7 +442,7 @@
                   <h5>Pablo Esocobar</h5>
                   <h6>117k Followers</h6>
                   <h6>#video #music #play</h6>
-                  <button class="btn btn-main py-1 px-3 mt-2">Buy Now</button>
+                  <button class="btn btn-main py-1 px-3 mt-2"><a href="#">Buy Now</a></button>
                 </div>
                 <div class="prod-actions text-center">
                   <div class="mb-4">
@@ -930,7 +932,10 @@
               type="email"
               placeholder="Enter your mail..."
             />
-            <button class="btn btn-main rounded-pill">Start for free</button>
+            <button class="btn btn-main rounded-pill">
+              <span class="d-none d-md-inline-block me-2">Start for free</span>
+              <i class="d-inline-block d-md-none fa-solid fa-arrow-right"></i>
+            </button>
           </div>
           <div class="brand-features d-flex flex-column flex-md-row justify-content-between text-white">
             <div>
@@ -951,37 +956,37 @@
     <!-- end brand -->
 
     <!-- start footer -->
-    <footer>
+    <footer class="text-center text-md-start">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-5">
             <img class="mb-4" src="./images/logo.png" alt="Logo">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
             <div class="social-media">
-              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href=""><i class="fa-brands fa-youtube"></i></i></a>
-              <a href=""><i class="fa-brands fa-vimeo-v"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+              <a class="me-0" href="#"><i class="fa-brands fa-vimeo-v"></i></a>
             </div>
           </div>
           <div class="col-12 col-md-2">
             <h4>Company</h4>
-            <ul>
-              <li>What We Do</li>
-              <li>Available Services</li>
-              <li>Latest Posts</li>
-              <li>FAQs</li>
+            <ul class="d-inline-block ps-3">
+              <li><a href="#">What We Do</a></li>
+              <li><a href="#">Available Services</a></li>
+              <li><a href="#">Latest Posts</a></li>
+              <li><a href="#">FAQs</a></li>
             </ul>
           </div>
           <div class="col-12 col-md-2">
             <h4>Company</h4>
-            <ul>
-              <li>What We Do</li>
-              <li>Available Services</li>
-              <li>Latest Posts</li>
-              <li>FAQs</li>
+            <ul class="d-inline-block ps-3">
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Privacy Policy</a></li>
             </ul>
           </div>
           <div class="col-12 col-md-3">
