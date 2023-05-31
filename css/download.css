@@ -1,0 +1,40 @@
+/* start download */
+.download{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height: calc(100vh - 77px);
+  margin-top: 77px;
+  background-color: var(--main-color);
+  color: #FFFFFF;
+  text-align: center;
+}
+.download-text h2{
+  font-size: 60px;
+  font-weight: 700;
+}
+.download-text h2 span{
+  font-size: 40px;
+  font-weight: 600;
+}
+.download-text p{
+  font-size: 20px;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .download{
+    height: auto;
+  }
+  .download-img, .download-text{
+    width: 100%!important;
+  }
+  .download-text h2{
+    font-size: 40px;
+  }
+  .download-text h2 span{
+    font-size: 32px;
+  }
+  .download-text p{
+    font-size: 18px;
+  }
+}
+/* end download */
