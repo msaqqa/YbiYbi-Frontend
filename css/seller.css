@@ -1,0 +1,97 @@
+/* start seller header */
+.seller-header{
+  padding-top: calc(1.5rem + 77px);
+  padding-bottom: 1.5rem;
+  background-color: rgba(95, 221, 210, 0.06);
+}
+/* end seller header */
+
+/* start sidebar */
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+.list-group-item-action {
+  font-size: 16px;
+  font-weight: 500;
+  color: #888888;
+}
+.list-group-item-action:hover {
+  background-color: #f8f9fa;
+}
+.list-group-item.active {
+  background-color: var(--main-color);
+  border-color:  var(--main-color);
+  font-size: 22px;
+}
+/* end sidebar */
+
+/* tabbable-panes */
+.tabbable-panes{
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+.tabbable-panes .box{
+  width: calc((100% / 3) - 16px)
+}
+.tabbable-panes .box:nth-of-type(2) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+@media (max-width: 768px) {
+  .tabbable-panes .box{
+    width: 100%
+  }
+  .tabbable-panes .box:nth-of-type(2) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* ybiybi-ons part */
+.tabbable-panes .ybiybi-ons{
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+.tabbable-panes .ybiybi-ons ul{
+  padding-left: 1rem;
+}
+
+/* instructions part */
+.tabbable-panes .instructions {
+  background-color: #161E2D;
+  padding: 50px 25px;
+  margin-bottom: 50px;
+}
+.tabbable-panes .instructions h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 1.5rem;;
+}
+.tabbable-panes .instructions p {
+  color: #DDDDDD
+}
+
+/* register part */
+.tabbable-panes .register {
+  background-color: rgba(95, 221, 210, 0.06);
+  padding: 50px 25px;
+}
+.tabbable-panes .register .rgs-content{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.tabbable-panes .register .rgs-content p {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+/* tabbable-panes */
